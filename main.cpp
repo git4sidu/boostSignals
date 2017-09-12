@@ -36,7 +36,7 @@ void BylyPlayer(string name, int wynik){
 int main()
 {
     Player p("John");
-
+    cout << "bedzie ok" << endl;
     auto baka {BylyPlayer};
     auto faka {boost::bind(&Coach::PlayerScored, &coach, _1, _2)};
     auto saka {[](string name, int wynik){cout <<" lambda " << name << " " << wynik << endl <<endl;}};
