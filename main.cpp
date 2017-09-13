@@ -17,7 +17,7 @@ public:
     }
 
     getGol(){
-        return this->numberOfGoals;
+        return numberOfGoals;
     }
 };
 
@@ -25,7 +25,7 @@ class Coach
 {
 public:
     void PlayerScored(string name, int wynik){
-        cout <<" well done, " << name << " " << wynik << endl;
+        cout <<" well donek,2 " << name << " " << wynik << endl;
     }
 } coach;
 
